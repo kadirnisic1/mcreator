@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 body {
     background-image: linear-gradient(rgba(65, 63, 63, 0.692), transparent),
         url("./wallpaperflare.com_wallpaper.jpg");
@@ -6,6 +8,7 @@ body {
     height: 500px;
     background-repeat: no-repeat;
     background-blend-mode: darken, luminosity;
+    font-family: 'Muli' ,sans-serif;
 }
 
 button {
@@ -17,9 +20,6 @@ button {
     font-size: 20px;
     color: #ffe8d6;
 }
-<<<<<<< HEAD
-/*change*/
-=======
 /*change*/
 
 .buttons {
@@ -43,4 +43,3 @@ h1 {
     color: #ffe8d6;
     font-size: 19px;
 }
->>>>>>> fdb862cae47dac4887117e90f37102eec4d13963

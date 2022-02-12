@@ -54,4 +54,31 @@ a {
 a .card {
     width: 90%;
 }
-/* finished*/
+
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.buttons-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    .buttons-two{
+        display: flex;
+    }
+    .buttons{
+        display: none;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    body{
+        height: 700px;
+    }
+  }

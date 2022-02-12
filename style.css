@@ -8,7 +8,7 @@ body {
     height: 500px;
     background-repeat: no-repeat;
     background-blend-mode: darken, luminosity;
-    font-family: 'Muli' ,sans-serif;
+    font-family: "Muli", sans-serif;
 }
 
 button {
@@ -19,8 +19,11 @@ button {
     border-radius: 50px;
     font-size: 20px;
     color: #ffe8d6;
+    transition: all ease-in-out 0.3s;
 }
-/*change*/
+button:hover {
+    background: rgb(125, 155, 99);
+}
 
 .buttons {
     width: 100%;
@@ -43,4 +46,11 @@ h1 {
     color: #ffe8d6;
     font-size: 19px;
 }
-/* a */
+
+a {
+    text-decoration: none;
+    width: 30%;
+}
+a .card {
+    width: 90%;
+}

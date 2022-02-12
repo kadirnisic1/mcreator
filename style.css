@@ -1,7 +1,12 @@
-body{
-    background-image: linear-gradient(rgba(65, 63, 63, 0.692),transparent),url("./wallpaperflare.com_wallpaper.jpg");
+body {
+    background-image: linear-gradient(rgba(65, 63, 63, 0.692), transparent),
+        url("./wallpaperflare.com_wallpaper.jpg");
     background-size: cover;
     width: 99%;
     height: 500px;
     background-repeat: no-repeat;
+}
+
+button {
+    background-color: brown;
 }
